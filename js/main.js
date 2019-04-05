@@ -34,3 +34,47 @@ window.onclick = function(event) {
   }
 }
 
+  var i = 1;
+  var t  ;
+  $('.slidericon').css('background-image', 'url(' + 'slider/img'+i+'.jpg' + ')');
+function slideShow(){
+ 
+ t = setInterval(slider,1000);
+  function slider(){
+    i++;
+    if(i>3)
+    i=1
+    $('.slidericon').css('background-image', 'url(' + 'slider/img'+i+'.jpg' + ')');
+  }
+}
+  $("#arowRight").mouseover(function(){
+   
+    clearInterval(t);
+
+  });
+  $('#arowRight').click(function(){
+    i++;
+    if(i>3)
+    i=1
+    $('.slidericon').css('background-image', 'url(' + 'slider/img'+i+'.jpg' + ')');
+  });
+  $("#arowRight").mouseout(function(){
+    slideShow();
+  });
+  
+  $("#arowLeft").mouseover(function(){
+   
+    clearInterval(t);
+
+  });
+  $('#arowLeft').click(function(){
+    i--;
+    if(i<1)
+    i=3
+    $('.slidericon').css('background-image', 'url(' + 'slider/img'+i+'.jpg' + ')');
+  });
+  $("#arowLeft").mouseout(function(){
+    slideShow();
+  });
+
+//$('.slidericon').css('background-image', 'url(' + 'slider/img1.jpg' + ')');

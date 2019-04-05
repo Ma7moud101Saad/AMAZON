@@ -180,7 +180,7 @@ margin-top: 5%; margin-bottom: 5%;}
 clear{width: 100%; height: 1px; clear: both;}
 
 #----------------------------saad-------------------------
-.a-button-text 
+a
 {
     color: #111;
     text-decoration: none !important;
@@ -201,22 +201,23 @@ clear{width: 100%; height: 1px; clear: both;}
     background-color: rgb(240, 193, 75);
 }
 
+.btn.btn-warning
+{
+  width: 100%;
+  background-color: rgb(240, 193, 75);
+  border: 1px solid gray;
+}
 .slidericon {
     /* background: red; */
+    
     height:650px;
-     background: url("../images/ph1.jpg") no-repeat;
+    width: auto;
+     /* background: url("../images/slider/img1.jpg") no-repeat; */
     /* background-attachment: fixed; */
     background-size: cover;
 }
 
-.parallax {
-    background-image: url(images/ph1.jpg);
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 #your-image 
 {
@@ -225,13 +226,26 @@ clear{width: 100%; height: 1px; clear: both;}
 }
 
 #myContainer {
-    left: 100px;
+    left:10%;
     position: absolute;
     z-index: 2;
-    top: 560px;
+    top: 300px;
     text-align: center;
 }
-
+#arowLeft{background: none;
+border: none;
+float: left;
+margin: 7% 0;
+}
+#arowLeft img{width: 70%;
+   height: auto;}
+#arowRight{background: none;
+  border: none;
+  float: right;
+  margin: 7% 0;
+  }
+  #arowRight img{width: 70%;
+    height: auto;}
 #-------------------------shamaa----------------------------------------------------
 div.scrollmenu {
     background-color: #e4e4e4;
@@ -385,6 +399,6 @@ div.scrollmenu {
    text-align: left;
   
   }
-  .clearShama{width: 100%; height: 200px; clear: both;}
+  .clearShama{width: 100%; height: 100px; clear: both;}
   /* -------------------------------------deal and protion---------------------------------- */
   
