@@ -9,7 +9,7 @@ var myobj = JSON.parse(str);
 for(let i = 0; i<20; i++)
 {
     var id= "product"+i;
-prod.innerHTML+="<div class='col-lg-3 product align-self-start '  id='"+id+"'>"+
+prod.innerHTML+="<div class='col-lg-3 col-md-4 col-sm-6 col-xs-12 product align-self-start '  id='"+id+"'>"+
 "<img class='img-fluid' src='"+myobj.Dept.poducts.product[i].img+"'>"+
 "<h5>"+myobj.Dept.poducts.product[i].name+"</h5><br>";
 

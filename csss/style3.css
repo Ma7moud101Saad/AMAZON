@@ -366,3 +366,16 @@ img {vertical-align: middle;}
     text-align: right;
     font-size: 16px;
 }
+.flex_catogry img.photoProduct{margin-bottom: 10px;width: 100%; height: 7.3em;}
+.flex_catogry .dealDay{background-color: #C45500; width: 50%; 
+font-weight: bold; color: white;}
+.flex_catogry .detailBtn{
+    background: none;
+    border: none;
+    background-color: #F3D17B;
+   height: 30px;
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid black;
+    
+}
